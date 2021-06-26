@@ -7,12 +7,12 @@ const travel = {
     {
       name: "Banglore",
       about:
-        "Bangalore is famous being the Silicon Valley of India, Karnataka's capital city is a well known IT hub and some of the world's major It corporations operate out of the city"
+        "Bangalore is famous being the Silicon Valley of India, Karnataka's capital city is a well known IT hub and some of the world's major It corporations operate out of the city."
     },
     {
       name: "Gujarat",
       about:
-        "Gujarat is famous for its traditional clothing, food and natural landscape. Asiatic lions, Rann of Kutch (White Desert)"
+        "Gujarat is famous for its traditional clothing, food and natural landscape. Asiatic lions, Rann of Kutch (White Desert)."
     }
   ],
   Canada: [
@@ -24,7 +24,7 @@ const travel = {
     {
       name: "Vancouver",
       about:
-      "Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes"
+      "Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes."
     }
   ],
   USA: [
@@ -36,7 +36,7 @@ const travel = {
     {
       name: "Washington",
       about:
-        "The state of Washington consistently ranks among the top five in various rankings of the most environmentally friendly states. Recent pushes include additional mass transit to keep pace with the job-fueled population growth, especially in the Seattle area"
+        "The state of Washington consistently ranks among the top five in various rankings of the most environmentally friendly states. Recent pushes include additional mass transit to keep pace with the job-fueled population growth, especially in the Seattle area."
     }
   ]
 };
@@ -52,7 +52,7 @@ export default function App() {
       <h1
         style={{
           display: "block",
-          fontSize: "2.5 rem",
+          fontSize: "3 rem",
           marginBlockStart: "0.67rem",
           marginBlockEnd: "0.67rem",
           marginInlineStart: "0rem",
@@ -69,6 +69,7 @@ export default function App() {
             onClick={() => onClickHandler(country)}
             style={{
               cursor: "pointer",
+              fontSize: "1.7 rem",
               background: "lightblue",
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",

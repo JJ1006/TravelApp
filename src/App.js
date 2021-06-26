@@ -88,9 +88,9 @@ export default function App() {
               key={city.name}
               style={{
                 listStyle: "none",
-                padding: "1rem",
+                padding: "0.5rem",
                 border: "1px solid #D1D5DB",
-                width: "80%",
+                width: "65%",
                 textAlign: "center",
                 margin: "1rem 0rem",
                 borderRadius: "0.5rem",
